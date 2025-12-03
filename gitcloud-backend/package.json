@@ -1,0 +1,19 @@
+{
+  "name": "gitcloud-backend",
+  "version": "1.0.0",
+  "description": "GitHub photo upload backend (Vercel serverless)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "dotenv": "^17.2.3",
+    "multer": "^2.0.2",
+    "next-connect": "^0.12.2"
+  }
+}
